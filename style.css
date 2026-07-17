@@ -466,3 +466,9 @@ body {
     font-size: 40px;
   }
 }
+
+.social-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
