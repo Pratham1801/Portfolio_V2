@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prathamesh Bawane — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <body>
+  <nav id="navbar">
+    <div class="logo">PRATHAMESH<span class="dot">.</span></div>
+    <div class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="hero-card">
+      <div class="hero-text">
+        <span class="badge">HELLO, I'M</span>
+        <h1>Prathamesh <span class="highlight">Bawane</span></h1>
+        <p class="role"><span id="typed-role"></span><span class="cursor">|</span></p>
+        <p class="tagline">I build exceptional digital experiences with modern technologies and clean design.</p>
+
+        <div class="cta-row">
+          <a href="assets/Prathamesh_Bawane.pdf" download class="btn btn-primary">↓ Download Resume</a>
+          <a href="#projects" class="btn btn-outline">View My Work →</a>
+        </div>
+
+        <p class="follow-label">Follow Me</p>
+        <div class="social-row">
+          <a href="https://github.com/your-username" target="_blank" rel="noreferrer">gh</a>
+          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noreferrer">in</a>
+          <a href="https://instagram.com/your-username" target="_blank" rel="noreferrer">ig</a>
+          <a href="mailto:you@email.com">✉</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="glow-ring"></div>
+        <img src="assets/images/Profile.jpeg" alt="Prathamesh Bawane">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+  <div class="section-inner">
+    <h2>About <span class="highlight">Me</span></h2>
+    <div class="about-grid">
+      <div class="about-photo">
+        <img src="assets/images/Profile.jpeg" alt="Prathamesh Bawane">
+      </div>
+      <div class="about-text">
+        <p>
+          A passionate Full Stack Developer who loves building web applications
+          and exploring new technologies. I care about clean code, fast load times,
+          and interfaces that don't get in the way.
+        </p>
+        <p>
+          Outside of work, I contribute to a couple of open-source projects and
+          I'm always tinkering with something new.
+        </p>
+        <button class="btn btn-outline" id="read-more-btn">Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="section-inner">
+    <h2>My <span class="highlight">Skills</span></h2>
+    <div class="skills-grid">
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span>React.js</span>
+          <span>90%</span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="90"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span>Node.js</span>
+          <span>85%</span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="90"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span>MongoDB</span>
+          <span>80%</span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="90"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span>JavaScript</span>
+          <span>90%</span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="90"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span>Tailwind CSS</span>
+          <span>85%</span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="90"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="projects">
+  <div class="section-inner">
+    <h2>My <span class="highlight">Projects</span></h2>
+
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="react">React</button>
+      <button class="filter-btn" data-filter="mern">MERN</button>
+      <button class="filter-btn" data-filter="js">JavaScript</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card" data-category="mern">
+        <div class="project-cover">Preview</div>
+        <h3>Expense Tracker</h3>
+        <p>A full-stack expense tracking app with authentication and a MongoDB-backed API.</p>
+        <div class="tags"><span>MERN</span></div>
+      </div>
+
+      <div class="project-card" data-category="react">
+        <div class="project-cover">Preview</div>
+        <h3>Weather Dashboard</h3>
+        <p>A React app that fetches and displays live weather data from a public API.</p>
+        <div class="tags"><span>React</span></div>
+      </div>
+
+      <div class="project-card" data-category="js">
+        <div class="project-cover">Preview</div>
+        <h3>Portfolio Site</h3>
+        <p>A personal developer portfolio built with vanilla HTML, CSS, and JavaScript.</p>
+        <div class="tags"><span>JavaScript</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="contact">
+  <div class="section-inner">
+    <h2>Contact <span class="highlight">Me</span></h2>
+    <p class="contact-sub">Have a project or just want to say hi? Send me a message!</p>
+
+    <div class="contact-grid">
+      <div class="contact-icon-box">
+        <span>✉</span>
+      </div>
+
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
